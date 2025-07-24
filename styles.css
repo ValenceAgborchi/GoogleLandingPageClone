@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.top-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.left-links, .right-links {
+  display: flex;
+  align-items: center;
+}
+
+.right-links .app-icon {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.profile-circle {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 272px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #c6c6c6;
+}
